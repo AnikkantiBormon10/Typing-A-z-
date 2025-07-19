@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeMaster Pro - AI-Powered Typing Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>TypeMaster Pro</h1>
+            <p>AI-Powered Typing Practice with Gemini Integration</p>
+        </header>
+
+        <div class="timer" id="timer">60</div>
+
+        <div class="controls">
+            <div class="control-group">
+                <label>Duration</label>
+                <div class="btn-group">
+                    <button class="btn" data-time="15">15s</button>
+                    <button class="btn" data-time="30">30s</button>
+                    <button class="btn active" data-time="60">60s</button>
+                </div>
+            </div>
+
+            <div class="control-group theme-selector">
+                <label>AI Theme</label>
+                <select id="themeSelector">
+                    <option value="motivational">Motivational Quotes</option>
+                    <option value="programming">Programming Concepts</option>
+                    <option value="science">Science Facts</option>
+                    <option value="literature">Literature Excerpts</option>
+                    <option value="technology">Technology News</option>
+                    <option value="philosophy">Philosophy Thoughts</option>
+                    <option value="general">General Knowledge</option>
+                </select>
+            </div>
+
+
+
+            <div class="control-group">
+                <button class="btn" id="generateText">Generate New Text</button>
+                <button class="btn" id="resetTest">Reset Test</button>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-value" id="wpmStat">0</div>
+                <div class="stat-label">WPM</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="accuracyStat">100%</div>
+                <div class="stat-label">Accuracy</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="charactersStat">0</div>
+                <div class="stat-label">Characters</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="timeStat">0s</div>
+                <div class="stat-label">Time</div>
+            </div>
+        </div>
+
+        <div class="typing-area">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressBar"></div>
+            </div>
+            <div class="text-display" id="textDisplay">
+                <div class="loading">Click "Generate New Text" to start practicing with AI-generated content!</div>
+            </div>
+            <input type="text" class="typing-input" id="typingInput" placeholder="Start typing here..." disabled>
+        </div>
+
+        <div class="leaderboard">
+            <h3>🏆 Best Scores</h3>
+            <div id="leaderboardList">
+                <div class="loading">No scores yet. Complete a test to see your results!</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
