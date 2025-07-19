@@ -4,7 +4,8 @@
 
 A modern, feature-rich typing practice application that uses Google's Gemini AI to generate dynamic, themed content for an engaging typing experience. Built with vanilla HTML, CSS, and JavaScript for maximum performance and compatibility.
 
-[![ Project - view]((https://anikkantibormon10.github.io/Typing-A-z-/))
+[Visit APP](https://anikkantibormon10.github.io/Typing-A-z-/)
+
 
 
 ## ✨ Features
