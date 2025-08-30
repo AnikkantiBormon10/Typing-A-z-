@@ -11,7 +11,7 @@ class TypingApp {
         this.correctChars = 0;
         this.totalChars = 0;
         // Replace 'YOUR_API_KEY_HERE' with your actual Gemini API key
-        this.apiKey = 'AIzaSyBeJXPLg-dxaiXi9tXLe0NKJMSGewWpLjM';
+        this.apiKey = 'AIzaSyBeJXPLg-dxaiXi9tXLe0NKJMSGewWanikpLjM';
 
         this.initializeElements();
         this.attachEventListeners();
